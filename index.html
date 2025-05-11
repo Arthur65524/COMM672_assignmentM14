@@ -94,27 +94,56 @@
 
 <!-- Features Section -->
 <section id="features">
-    <h2>Our Features</h2>
-    <div>
-        <img src="images/cat-care.jpg" alt="Cat Care">
-        <h3>Cat Care Essentials</h3>
-        <button>Read More</button>
-        <p>Explore a wealth of resources on feline care, behavior, and wellness to ensure your cat leads a happy, healthy life.</p>
+    <div class="container py-5">
+        <h2 class="text-center mb-4">Our Features</h2>
+        <div class="accordion row" id="featureAccordion">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/cat-care.jpg" class="card-img-top" alt="Cat Care">
+                    <div class="card-body">
+                        <h5 class="card-title">Cat Care Essentials</h5>
+                        <a class="btn btn-warning text-white" data-bs-toggle="collapse" href="#catCare" role="button" aria-expanded="false" aria-controls="catCare">Read More</a>
+                        <div class="collapse" id="catCare" data-bs-parent="#featuresAccordion">
+                            <div>
+                            <p class="mt-2">Explore a wealth of resources on feline care, behavior, and wellness to ensure your cat leads a happy, healthy life.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/cat-quizzes.jpg" class="card-img-top" alt="Cat Quizzes">
+                    <div class="card-body">
+                        <h5 class="card-title">Purr-sonality Quizzes</h5>
+                        <a class="btn btn-warning text-white" data-bs-toggle="collapse" href="#catQuizzes" role="button" aria-expanded="false" aria-controls="catQuizzes">Read More</a>
+                        <div class="collapse" id="catQuizzes" data-bs-parent="#featuresAccordion">
+                            <div>
+                            <p class="mt-2">Take our fun quizzes to find out which cat breed matches your personality. Discover unique facts and learn about different cat breeds!</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/cat-community.jpg" class="card-img-top" alt="Community">
+                    <div class="card-body">
+                        <h5 class="card-title">Interactive Community</h5>
+                        <a class="btn btn-warning text-white" data-bs-toggle="collapse" href="#community" role="button" aria-expanded="false" aria-controls="community">Read More</a>
+                        <div class="collapse" id="community" data-bs-parent="#featuresAccordion">
+                            <div>
+                            <p class="mt-2">Join our community of cat lovers. Participate in fun contests and engage with other cat enthusiasts. Share your experiences and learn from experts!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div>
-        <img src="images/cat-quizzes.jpg" alt="Cat Quizzes">
-        <h3>Purr-sonality Quizzes</h3>
-        <button>Read More</button>
-        <p>Take our fun quizzes to find out which cat breed matches your personality. Discover unique facts and learn about different cat breeds!</p>
-    </div>
-    <div>
-        <img src="images/cat-community.jpg" alt="Cat Community">
-        <h3>Interactive Community</h3>
-        <button>Read More</button>
-        <p>Join our community of cat lovers. Participate in fun contests and engage with other cat enthusiasts. Share your experiences and learn from experts!</p>
-    </div>
-</section>
 
+
+    
 <!-- Testimonials Section with Tabs -->
 <section>
     <div id="testimonials">
