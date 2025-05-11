@@ -13,6 +13,6 @@
 .testimonials .nav-link {
     color: white;
 }
-.contact {
-    background-color: lightgray;
+.contact, .customColor {
+    background-color: rgb(242, 239, 239);
 }
