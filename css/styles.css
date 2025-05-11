@@ -6,3 +6,10 @@
     width: 100%;
     object-fit: cover;
 }
+.testimonials {
+    background-color: rgb(0, 0, 90);
+    color: white;
+}
+.testimonials .nav-link {
+    color: white;
+}

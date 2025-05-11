@@ -94,7 +94,7 @@
 
 <!-- Features Section -->
 <section id="features">
-    <div class="container py-5">
+    <div class="container pb-5">
         <h2 class="text-center mb-4">Our Features</h2>
         <div class="accordion row" id="featureAccordion">
             <div class="col-md-4">
@@ -117,7 +117,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Purr-sonality Quizzes</h5>
                         <a class="btn btn-warning text-white" data-bs-toggle="collapse" href="#catQuizzes" role="button" aria-expanded="false" aria-controls="catQuizzes">Read More</a>
-                        <div class="collapse" id="catQuizzes" data-bs-parent="#featuresAccordion">
+                        <div class="collapse" id="catQuizzes">
                             <div>
                             <p class="mt-2">Take our fun quizzes to find out which cat breed matches your personality. Discover unique facts and learn about different cat breeds!</p>
                         </div>
@@ -130,8 +130,8 @@
                     <img src="images/cat-community.jpg" class="card-img-top" alt="Community">
                     <div class="card-body">
                         <h5 class="card-title">Interactive Community</h5>
-                        <a class="btn btn-warning text-white" data-bs-toggle="collapse" href="#community" role="button" aria-expanded="false" aria-controls="community">Read More</a>
-                        <div class="collapse" id="community" data-bs-parent="#featuresAccordion">
+                        <a class="btn btn-warning text-white" data-bs-toggle="collapse" href="#communityFeatures" role="button" aria-expanded="false" aria-controls="communityFeatues">Read More</a>
+                        <div class="collapse" id="communityFeatures">
                             <div>
                             <p class="mt-2">Join our community of cat lovers. Participate in fun contests and engage with other cat enthusiasts. Share your experiences and learn from experts!</p>
                             </div>
@@ -145,25 +145,24 @@
 
     
 <!-- Testimonials Section with Tabs -->
-<section>
-    <div id="testimonials">
-        <h2>Cat Owner Testimonials</h2>
-        <ul>
-            <li><a href="#">Felicity Meowser</a></li>
-            <li><a href="#">Whiskers Wilson</a></li>
-            <li><a href="#">Paws Perkins</a></li>
-        </ul>
-        <div>
-            <div><p>Purrfect Vibes has transformed the way I care for my cat. Their tips and resources have been a game-changer for me and my tabby, Luna!<br><br>
-                <strong>- Felicity Meowser</strong><br>Cat Mom Extraordinaire</p>
+<section class="testimonials">
+    <div class="container py-5">
+            <h2 class="text-center mb-4">Cat Own Testimonials</h2>
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Felicity Meowser</button>
+                    <button class="nav-link" id="care-tab" data-bs-toggle="tab" data-bs-target="#care" type="button" role="tab" aria-controls="care" aria-selected="false">Whisker Wilson</button>
+                    <button class="nav-link" id="community-tab" data-bs-toggle="tab" data-bs-target="#community" type="button" role="tab" aria-controls="community" aria-selected="false">Paws Perkins</button>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active p-3" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0"><p>Purrfect Vibes has transformed the way I care for my cat. Their tips and resources have been a game-changer for me and my tabby, Luna!<br><br>
+                <strong>- Felicity Meowser</strong><br>Cat Mom Extraordinaire</p></div>
+                <div class="tab-pane fade p-3" id="care" role="tabpanel" aria-labelledby="care" tabindex="0"><p>The quizzes are so much fun, and I've learned so much from the blog posts. Purrfect Vibes is my daily dose of feline joy!</p>
+                <strong>- Whiskers Wilson</strong><br>Proud Owner of Mittens</p></div>
+                <div class="tab-pane fade p-3" id="community" role="tabpanel" aria-labelledby="community" tabindex="0"><p>Thanks to Purrfect Vibes, I found the perfect toys for my kitten. She's never been happier!</p>
+                <strong>- Paws Perkins</strong><br>First-Time Cat Owner</p></div>
             </div>
-            <div><p>The quizzes are so much fun, and I've learned so much from the blog posts. Purrfect Vibes is my daily dose of feline joy!</p>
-                <strong>- Whiskers Wilson</strong><br>Proud Owner of Mittens</p>
-            </div>
-            <div><p>Thanks to Purrfect Vibes, I found the perfect toys for my kitten. She's never been happier!</p>
-                <strong>- Paws Perkins</strong><br>First-Time Cat Owner</p>
-            </div>
-        </div>
     </div>
 </section>
 
